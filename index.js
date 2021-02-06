@@ -11,3 +11,5 @@ app
   .catch(err => {
     console.error(err)
   })
+
+client.login(process.env.DISCORD_BOT_TOKEN)
